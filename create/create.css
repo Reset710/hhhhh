@@ -1,0 +1,154 @@
+body {
+
+    background-color: rgb(0, 66, 124);
+    color: #ffffff;
+  
+  
+  }
+  
+  .title {
+  
+    text-align: center;
+  
+  }
+  
+  
+  
+  
+  
+  .Top-Menu{
+
+    display: grid;
+    
+    grid-template-columns: 1fr ;
+    
+    column-gap: 50px;
+    
+    margin: 0;
+    
+    padding: 5px;
+    
+    /* border: solid; */
+    
+    }
+    
+  .Class{
+
+    /* border: solid; */
+    
+    text-align: center;
+  
+    margin: 0;
+    
+    height: 150px;
+    
+    padding: 5px;
+    
+    border-radius: 15px;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 150px;
+  
+    background-color: rgba(255,255,255,.1);
+  
+    border-width: 1px;
+  
+    border-color: gray;
+  
+  
+    
+  
+    
+    
+    }
+  
+  
+
+    .Create-Class{
+
+        border: solid;
+    
+        text-align: center;
+      
+        margin: 0;
+        
+        height: 100%;
+        
+        padding: 5px;
+        
+        border-radius: 15px;
+        
+        display: grid;
+        
+        grid-template-rows: 1fr;
+      
+        background-color: rgba(255,255,255,.1);
+      
+        border-width: 1px;
+      
+        border-color: gray;
+
+
+    }
+
+
+  
+
+  .ClassGrade{
+
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    font-size: 40px;
+    
+  
+  }
+  
+  
+  .ClassName {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    border-right: 1px solid rgba(255,255,255,.1);
+    background-color: transparent; 
+    border: none;
+    font-size: large;
+    text-align: center;
+  }
+  
+  .ClassName:focus {
+    outline: none; 
+  }
+
+  .ClassName::placeholder {
+    color: rgba(255, 255, 255, 0.5); 
+  }
+  
+  
+
+
+  .Submit-options{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 25px;
+    padding: 15px;
+    border-left: 1px solid rgba(255,255,255, .7);
+
+  }
+
+  .Create-Button, .Cancel-Button{
+
+
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(0, 66, 124, 0.5);
+    border: solid;
+    border-width: 1px;
+
+
+  }
+
